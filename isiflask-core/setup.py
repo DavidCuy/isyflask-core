@@ -18,7 +18,7 @@ install_requires = \
 
 setup_kwargs = {
     'name': 'isyflask-core',
-    'version': '0.1.0',
+    'version': '0.1.1',
     'description': 'Librerías core de manejo de la DB del framework isy.',
     'author': 'David Cuy',
     'author_email': 'david.cuy.sanchez@gmail.com',
