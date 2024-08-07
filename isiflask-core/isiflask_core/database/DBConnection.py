@@ -27,6 +27,19 @@ def get_engine() -> Engine:
     """
     return db.engine
 
+def connect_to_main_app(db_conn: dict):
+    """
+    Connects the application to the specified database connection.
+
+    Args:
+        db_conn (dict): A dictionary containing the database connection details.
+
+    Returns:
+        None: This function does not return a value, but updates the global 'db' variable with the provided database connection.
+    """
+    global db
+    db = db_conn['db']
+
 
 class AlchemyEncoder(json.JSONEncoder):
     """ Based on: https://stackoverflow.com/questions/5022066/how-to-serialize-sqlalchemy-result-to-json/41204271 """

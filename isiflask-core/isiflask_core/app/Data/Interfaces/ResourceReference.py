@@ -1,6 +1,6 @@
 from typing import Dict, Type
 from ...Data.BaseModel import BaseModel
-import Environment as env
+import isiflask_core.Environment as env
 
 class ResourceReference:
 
