@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "isiflask_core"}]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.12"
 python-dotenv = "^0.20.0"
 alembic = "^1.7.7"
 SQLAlchemy = "^1.4.36"
